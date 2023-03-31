@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: 100%;
+    border: 2px solid rgb(252, 251, 251);
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+  }
+  .social {
+    margin-top: 20px;
+    width: 90%;
+  }
+  .social ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .two li {
+    width: 100%;
+    margin: 10px;
+  }
+  .banner {
+    width: 90%;
+    flex-direction: column-reverse;
+    backdrop-filter: none;
+    padding-bottom: 50px;
+  }
+  .welcome {
+    width: 100%;
+    z-index: 10;
+    padding: 4px;
+    margin-top: 0;
+  }
+  .welcome h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .welcome span {
+    color: rgb(1, 224, 1);
+  }
+  .underline {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .welcome p {
+    text-align: center;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 22px;
+    border-left: none;
+    border-right: none;
+  }
+  .image {
+    width: 50%;
+    float: right;
+  }
+  .image img {
+    opacity: 0.9;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .about .para {
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+  }
+  .skills {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+  }
+  .skill {
+    width: 42%;
+    margin: 8px;
+  }
+  .skill p {
+    font-size: 20px;
+    padding: 16px;
+  }
+  .projects {
+    width: 100%;
+    min-height: auto;
+    border-radius: 4px;
+  }
+  .projects h1 {
+    width: fit-content;
+    margin: auto;
+  }
+  .items {
+    width: 90%;
+    margin: auto;
+  }
+  .item {
+    width: 100%;
+    border: 2px solid white;
+  }
+  .item-pic {
+    width: 100%;
+  }
+  .item img {
+    width: 100%;
+  }
+  .desc {
+    font-size: 20px;
+    backdrop-filter: blur(0px);
+  }
+  .proj {
+    backdrop-filter: blur(2px);
+  }
+
+  .contact h1 {
+    text-align: center;
+  }
+  .form {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text {
+    width: 90%;
+    text-align: center;
+  }
+  .details {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .line {
+    height: 1px;
+    background-color: rgb(187, 187, 187);
+    width: 20%;
+  }
+
+  .msgbtn {
+    width: 60%;
+    margin-top: 20px;
+  }
+}
